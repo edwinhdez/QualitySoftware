@@ -1,0 +1,49 @@
+-------Poetry con Python 3.9
+
+C:\Git\TecMonterrrey\QualitySoftware>poetry new qualitysoftware_p39
+Created package qualitysoftware_p39 in qualitysoftware_p39
+
+C:\Git\TecMonterrrey\QualitySoftware>cd qualitysoftware_p39
+
+C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p39>poetry env use python
+Creating virtualenv qualitysoftware-p39 in C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p39\.venv
+Using virtualenv: C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p39\.venv
+
+
+
+---------Poetry con Python 3.10
+
+C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p39>cd ..
+
+C:\Git\TecMonterrrey\QualitySoftware>poetry new qualitysoftware_p310
+Created package qualitysoftware_310 in qualitysoftware_p310
+
+
+C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p310>poetry env use python3
+Creating virtualenv qualitysoftware-p310 in C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p310\.venv
+Using virtualenv: C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p310\.venv
+
+
+
+----------Revision------------
+
+C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p39>poetry env list
+.venv (Activated)
+
+C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_p39>cd ..
+
+C:\Git\TecMonterrrey\QualitySoftware>poetry env list
+
+Poetry could not find a pyproject.toml file in C:\Git\TecMonterrrey\QualitySoftware or its parents
+
+C:\Git\TecMonterrrey\QualitySoftware>cd qualitysoftware_310
+
+C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_310>poetry shell
+Spawning shell within C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_310\.venv
+
+C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_310>()
+
+(qualitysoftware-310-py3.10) C:\Git\TecMonterrrey\QualitySoftware\qualitysoftware_310>
+
+
+
